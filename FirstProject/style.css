@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+.clearfix:after {
+   content: "";
+   display: table;
+    clear: both;
+}
+
+.header {
+    height: 60px;
+    background-color: #344051;
+    padding: 0 365px;
+}
+.logo {
+    float: left;
+    margin-top: 20px;
+    
+}
+.logo-text {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.menu-header {
+    float: right;
+    margin-top: 20px;
+    
+}
+.menu-list {
+    float: left;
+    list-style-type: none;
+    
+}
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 40px;
+    background-image: url(img/%D1%82%D0%B5%D0%BD%D1%8C.png)
+}
+.header-slider {
+    background: url(img/%D1%82%D0%B5%D0%BD%D1%8C.png) no-repeat 0px 990px ,
+                url(img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) no-repeat right 100px bottom,
+                url(img/%D1%84%D0%BE%D0%BD.jpg);
+    height: 1040px;
+}
+
+.header-slider-text {
+    padding-left: 400px;
+    padding-top: 500px;
+}
+.header-slider-text-hi {
+    font-size: 60px; 
+    color: #2c384a;
+    padding-left: 110px;
+}
+.header-slider-text-MeAndrewBrown {
+    font-size: 60px;
+    color: #2c384a;
+    
+}
+.header-slider-info {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #79818c;
+}
+
+.header-slider-button-info {
+    padding-top: 50px;
+    padding-left: 480px
+}
+.header-slider-button {
+    color: #6d7682;
+    text-decoration: none;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.section-about-me {
+    text-align: center;
+}
+.about-me {
+    padding-top: 110px;   
+}
+.about-me-text {
+    counter-reset: #263244;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #d87c02;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.info-about-me {
+    padding-top: 65px;
+}
+.section-about-me-text {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #626976;
+}
+.save-summary {
+    padding-bottom: 80px;
+}
+.save-summary-link {
+    color: #626976;
+    text-decoration: none;
+    border: 1px solid #767784;
+    border-radius: 5px;
+    padding: 5px;
+}
+.save-summary-img {
+    padding-right: 5px;
+}
+.section-can-i-do {
+    background-image: url(img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg);
+    
+}
+.can-i-do {
+    text-align: center;
+    padding-top: 100px;
+}
+.can-i-do-text {
+    counter-reset: #263244;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #d87c02;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.icon-web-design {
+    padding-top: 100px;
+}
+.web-design {
+    color: #cf7600;
+    display: block;
+}
+.statistics {
+    background-image: url(img/%D1%84%D0%BE%D0%BD%C2%A0%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg);
+}
+.circle-reviews-pagination {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+.circle-reviews-pagination:hover {
+    background-color: #ef8a05;
+}
+.footer-copyright {
+    background-color: #354051;
+}
+
+.footer-text {
+    text-align: center;
+    color: #ffffff;
+}
